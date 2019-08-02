@@ -2,6 +2,8 @@
 # The dataframe is used for demostrate a table usage in a database when processing a chat log which is in huge file size.
 # The purpose to doing so is for minimizing the memory usage to handle big file size of chat log.
 # An instant of the the dataframe would be representing a table in database.
+# When handling big chat log, a table which is similar structure to the dataframe is created, 
+# Insert the rows extracted from the chatlog and perform the agregate words count by similar way. 
 
 import numpy as np
 import pandas as pd
